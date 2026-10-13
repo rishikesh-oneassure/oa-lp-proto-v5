@@ -2,7 +2,7 @@ import { BodyLarge, BodySmall, HeadingXLarge } from "../UI/Typography";
 
 export default function BeReady() {
   return (
-    <div className="ml-[calc(50%-50vw)]! mr-[calc(50%-50vw)]! w-screen! flex flex-col items-center gap-2 bg-primary-800 py-12 md:py-20 text-white text-center mb-0!">
+    <div className="ml-[calc(50%-50vw)]! mr-[calc(50%-50vw)]! w-screen! px-6 md:px-0 flex flex-col items-center gap-2 bg-primary-800 py-12 md:py-20 text-white text-center mb-0!">
       <BodySmall className={"uppercase text-center tracking-widest"}>
         &mdash; Be Ready Before You Need it
       </BodySmall>
