@@ -59,7 +59,7 @@ const FooterTopSection = ({ utm }) => {
 
   return (
     <SectionContainer className="!px-0 !mb-6 md:!mb-10">
-      <div className="w-full flex md:justify-between gap-6 md:gap-20 items-center">
+      <div className="w-full flex flex-col md:flex-row md:justify-between gap-6 md:gap-20 items-center">
         <div className="w-min flex flex-col gap-2 items-center md:items-start text-center md:text-left">
           <div className="flex flex-col items-center md:items-start">
             <span className="w-48">
