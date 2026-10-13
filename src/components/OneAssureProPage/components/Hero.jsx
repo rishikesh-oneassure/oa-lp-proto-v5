@@ -50,8 +50,8 @@ export default function Hero() {
         </div>
 
         <SectionContainerMedium className="relative flex min-w-0 flex-col-reverse px-0! mb-0! md:flex-row mx-auto">
-          <div className="mx-auto flex w-fit flex-col-reverse md:flex-row md:justify-center gap-0 md:-translate-x-1/5">
-            <div className="flex w-full md:w-[40%] md:h-full min-w-0 flex-col items-center justify-center bg-primary-800 p-6 md:p-8 text-white divide-y divide-primary-700 rounded-b-2xl md:rounded-r-none md:rounded-l-2xl *:w-full md:max-w-1/2">
+          <div className="mx-auto flex w-fit flex-col-reverse md:flex-row md:justify-center gap-4 md:gap-8 md:-translate-x-1/6">
+            <div className="flex w-full md:w-[40%] md:h-full min-w-0 flex-col items-center justify-center bg-primary-800 p-6 md:p-8 text-white divide-y divide-primary-700 rounded-2xl *:w-full md:max-w-1/2">
               <div className="h-full flex flex-col justify-between">
                 <div className="flex items-start gap-1 py-3">
                   <span className="flex items-center justify-center h-8 -mt-1 aspect-square rounded-full">
@@ -104,7 +104,7 @@ export default function Hero() {
               </div>
             </div>
 
-            <form className="z-5 flex w-full md:w-[40%] min-w-0 max-w-full flex-col justify-between gap-2 bg-white px-6 md:px-8 py-4 shadow-lg md:max-w-1/2 rounded-t-2xl md:rounded-l-none md:rounded-r-2xl">
+            <form className="z-5 flex w-full md:w-[40%] min-w-0 max-w-full flex-col justify-between gap-2 bg-white px-6 md:px-8 py-4 shadow-lg md:max-w-1/2 rounded-2xl">
               <div className="flex flex-col gap-0.5 pt-2">
                 <HeadingMedium className="text-neutral-1100" weight="medium">
                   Book your free call
